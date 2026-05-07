@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proyecto Final - Portfolio Ingeniería Mecánica</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            padding:0;
+            background:#f4f4f4;
+            color:#222;
+        }
+
+        header{
+            background:#111827;
+            color:white;
+            padding:50px 20px;
+            text-align:center;
+        }
+
+        header h1{
+            margin:0;
+            font-size:42px;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:18px;
+            color:#d1d5db;
+        }
+
+        section{
+            max-width:1100px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            margin-bottom:35px;
+            box-shadow:0 2px 12px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            margin-top:0;
+            color:#111827;
+        }
+
+        p{
+            line-height:1.7;
+        }
+
+        ul{
+            line-height:1.8;
+        }
+
+        .gallery{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:20px;
+        }
+
+        img{
+            width:100%;
+            max-height:500px;
+            object-fit:contain;
+            background:white;
+            border-radius:10px;
+            border:1px solid #ddd;
+            padding:10px;
+        }
+
+        .button{
+            display:inline-block;
+            margin-top:15px;
+            padding:14px 22px;
+            background:#2563eb;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            transition:0.3s;
+        }
+
+        .button:hover{
+            background:#1d4ed8;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            background:#111827;
+            color:white;
+            margin-top:40px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Proyecto Final de Grado Superior</h1>
+
+    <p>
+        Portfolio de Ingeniería Mecánica
+    </p>
+
+</header>
+
+<section>
+
+    <div class="card">
+
+        <h2>Descripción del Proyecto</h2>
+
+        <p>
+            El proyecto consiste en valorar la capacidad de diseñar y programar la fabricación, no se tiene en cuenta la viabilidad de la pieza o conjunto de
+          piezas siendo usadas debidamente, es decir, las piezas diseñadas no tienen por que funciónar con su proposito, en este caso, ser parte de un helicoptero.
+          El diseño consta de 5 piezas diseñadas más otras 4 de refuerzo, siendo estas tornillos, arandelas y rodamientos.
+        </p>
+
+        <ul>
+            <li>Diseño CAD 3D</li>
+            <li>Planos técnicos</li>
+            <li>Modelado y ensamblaje</li>
+            <li>Fabricación</li>
+            <li>Simulación o cálculos</li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Galería de Planos y Modelos</h2>
+
+        <div class="gallery">
+
+            <img src="plano1.jpg" alt="Plano 1">
+
+            <img src="plano2.jpg" alt="Plano 2">
+
+            <img src="plano3.jpg" alt="Plano 3">
+
+            <img src="plano4.jpg" alt="Plano 4">
+
+            <img src="plano5.jpg" alt="Plano 5">
+
+            <img src="plano6.jpg" alt="Plano 6">
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Documentación Técnica</h2>
+
+        <p>
+            Descarga la memoria completa del proyecto:
+        </p>
+
+        <a class="button" href="proyecto.pdf">
+            Descargar PDF
+        </a>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Archivos 3D</h2>
+
+        <p>
+            Descarga los modelos CAD del proyecto:
+        </p>
+
+        <a class="button" href="modelo.step">
+            Descargar archivo STEP
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        Portfolio de Ingeniería Mecánica
+    </p>
+
+</footer>
+
+</body>
+
+</html>
